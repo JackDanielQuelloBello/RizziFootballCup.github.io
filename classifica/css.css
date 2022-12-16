@@ -1,0 +1,164 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+.tutto
+{
+  position: absolute;
+  left: 10%;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+  background: #000;
+}
+
+.tutto p
+{
+  position: absolute;
+  left: 5%;
+}
+
+.classifica {
+  position: absolute;
+  color: #fff;
+  left: 44%;
+  text-shadow: 0 0 10px #fff;
+  top: 10%;
+  font-size: 40px;
+}
+.punti {
+  position: absolute;
+  color: #fff;
+  right: 134px;
+  text-shadow: 0 0 10px #fff;
+  top: 20%;
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
+.tutto span{
+  position: absolute;
+  background: linear-gradient(to right, #fff 0%, var(--clr) 100%);
+  pointer-events: none;
+  box-shadow: 0 0 10px var(--clr),
+  0 0 20px var(--clr),
+  0 0 30px var(--clr),
+  0 0 50px var(--clr),
+  0 0 10px var(--clr);
+  .// ogni 70 1 punto
+}
+a
+{
+  color: #fff;
+}
+.tutto .primo span
+{
+  position relative;
+  width: 150px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .secondo span
+{
+  position relative;
+  margin-top: 30px;
+  width: 80px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .terzo span
+{
+  position relative;
+  margin-top: 60px;
+  width: 80px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .quarto span
+{
+  position relative;
+  margin-top: 90px;
+  width: 80px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .quinto span
+{
+  position relative;
+  margin-top: 120px;
+  width: 80px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .sesto span
+{
+  position relative;
+  margin-top: 150px;
+  width: 20px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .settimo span
+{
+  position relative;
+  margin-top: 175px;
+  width: 20px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .ottavo span
+{
+  position relative;
+  margin-top: 202px;
+  width: 20px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .nono span
+{
+  position relative;
+  margin-top: 230px;
+  width: 20px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .decimo span
+{
+  position relative;
+  margin-top: 260px;
+  width: 20px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
+.tutto .undicesimo span
+{
+  position relative;
+  margin-top: 290px;
+  width: 20px;
+  height: 10px;
+  top: 8px;
+  left: 200px;
+}
